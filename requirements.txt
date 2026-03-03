@@ -1,1 +1,2 @@
-python-telegram-bot[job-queue]==20.6, flask
+python-telegram-bot[job-queue]==20.6
+flask
