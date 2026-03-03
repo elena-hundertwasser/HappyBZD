@@ -30,7 +30,7 @@ def run_server():
 
 threading.Thread(target=run_server).start()
 
-TOKEN = "8734555092:AAHbG9ei99cAPBnObkA77A9DWUUH2gJlTlw"
+TOKEN = os.getenv("TOKEN")
 
 DATA_FILE = "birthdays.json"
 
